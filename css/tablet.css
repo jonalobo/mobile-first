@@ -1,0 +1,17 @@
+    .main-product-detail1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 930px;
+    margin: 0 auto;
+}
+.main-tables-container--slider {
+    display: flex;
+    height: 500px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.plans-container--slider {
+    justify-content: center;
+}
